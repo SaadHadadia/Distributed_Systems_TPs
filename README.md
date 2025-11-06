@@ -1,49 +1,6 @@
-# TP RMI - Modeling distributed task for a store
+# Liste des TPs: Algorithmes et Systèmes répartis et Blockchain
 
-Minimal Java RMI-like/IPC demo with a server and two clients.
+Ce dépôt contient les travaux pratiques (TPs) réalisés dans le cadre du cours "Algorithmes et Systèmes répartis et Blockchain". Chaque TP est organisé dans son propre répertoire avec des instructions détaillées et des exemples de code.
 
-## Quick build & run
-1. Open a terminal and start the server:
-   ```sh
-   cd server
-   javac *.java
-   java StockServer
-   ```
-
-2. In another terminal, run a client:
-   ```sh
-   cd client
-   javac *.java
-   java ProductionClient   # or: java LivraisonClient
-   ```
-
-## Project files
-
-```
-Distributed_Systems_TPs
-├──server/
-|  ├── StockInterface.java       interface
-|  ├── StockImpl.java            implementation
-|  └── StockServer.java          server entrypoint
-|
-└── client/
-    ├──ProductionClient.java     producer client
-    └──LivraisonClient.java      delivery client
-```
-
-## Expected results
-
-```
-[SERVEUR] Registre RMI démarré sur le port 1099.
-[SERVEUR] Serveur Stock lancé et prêt ! Service nommé 'StockService'
-[SERVEUR]  Carton stocké. Total = 1/5
-[SERVEUR]  Carton stocké. Total = 2/5
-[SERVEUR]  Carton stocké. Total = 3/5
-[SERVEUR]  Carton stocké. Total = 4/5
-[SERVEUR]  Carton stocké. Total = 5/5
-[SERVEUR]  Stock plein ! (5/5)
-[SERVEUR]  Stock plein ! (5/5)
-[SERVEUR]  Carton livré. Restant = 4/5
-[SERVEUR]  Carton livré. Restant = 3/5
-[SERVEUR]  Carton livré. Restant = 2/5
-```
+## Structure du dépôt
+- `TP1/` : TP RMI - Modeling distributed task for a store [link](https://github.com/SaadHadadia/Distributed_Systems_TPs/tree/TP-RMI)
